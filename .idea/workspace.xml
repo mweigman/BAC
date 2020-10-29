@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d830e388-842b-4c64-89ac-db5baed0c97d" name="Default Changelist" comment="" />
+    <list default="true" id="d830e388-842b-4c64-89ac-db5baed0c97d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jRL6RxILilflf2gzWxkcrJUGvR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,10 +40,33 @@
       <updated>1603761781649</updated>
       <workItem from="1603761782749" duration="2027000" />
       <workItem from="1603764179349" duration="83000" />
+      <workItem from="1603765685567" duration="439000" />
+      <workItem from="1603940053771" duration="2552000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="632" y="380" key="Github.ShareDialog" timestamp="1603765693408">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="632" y="380" key="Github.ShareDialog/0.0.1504.963@0.0.1504.963" timestamp="1603765693408" />
+    <state x="515" y="187" key="Github.UntrackedFilesDialog" timestamp="1603765701304">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="515" y="187" key="Github.UntrackedFilesDialog/0.0.1504.963@0.0.1504.963" timestamp="1603765701304" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/code.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

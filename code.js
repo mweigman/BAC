@@ -1,23 +1,26 @@
-function costSplit(){
+$(document).ready(
+    function () {
+        //event handlers
+        $("button").click(costSplit);
 
-    //input how many plain cheese pizza's?
-    var pizzaQuantity = prompt("How many plain cheese pizza's ordered?");
+        //functions
+            function costSplit() {
 
-    //convert from text to number
-    pizzaQuantity = parseFloat(pizzaQuantity);
+                //input how many plain cheese pizza's?
+                var pizzaQuantity = parseFloat($("#plainPizza").val());
 
-    //input how many extra toppings
-    var toppingsQuantity = prompt("How many extra toppings added?");
+                //input how many extra toppings
+                var toppingsQuantity = parseFloat($("#toppings").val());
 
-    //convert from text to number
-    toppingsQuantity = parseFloat(toppingsQuantity);
+                //how many people splitting the cost
+                var totalPeople = parseFloat($("#people").val());
 
-    //how many people splitting the cost
-    var totalPeople = prompt("How many people are splitting the cost?");
+                var calculation = ((pizzaQuantity * 15) + (toppingsQuantity * 1.25)) / totalPeople;
 
-    totalPeople = parseFloat(totalPeople);
+                //put results in spans
+                $("#result").text(calculation.toFixed(2));
 
-    var calculation = ((pizzaQuantity * 15) + (toppingsQuantity * 1.25)) / totalPeople;
+                $("p.output").show();
 
-    alert ( ` Your total per person is: $${calculation.toFixed(2)}` );
-}
+            }
+    });
