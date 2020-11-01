@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d830e388-842b-4c64-89ac-db5baed0c97d" name="Default Changelist" comment="">
+    <list default="true" id="d830e388-842b-4c64-89ac-db5baed0c97d" name="Default Changelist" comment="2.2 Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/code.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -41,12 +59,37 @@
       <workItem from="1603761782749" duration="2027000" />
       <workItem from="1603764179349" duration="83000" />
       <workItem from="1603765685567" duration="439000" />
-      <workItem from="1603940053771" duration="2552000" />
+      <workItem from="1603940053771" duration="4433000" />
+      <workItem from="1604248956582" duration="5112000" />
     </task>
+    <task id="LOCAL-00001" summary="2.2 Commit">
+      <created>1603942855408</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603942855410</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2.2 Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.2 Commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="632" y="380" key="Github.ShareDialog" timestamp="1603765693408">
@@ -57,16 +100,17 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="515" y="187" key="Github.UntrackedFilesDialog/0.0.1504.963@0.0.1504.963" timestamp="1603765701304" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/code.js</url>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="345" y="215" key="Vcs.Push.Dialog.v2" timestamp="1603942860030">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="345" y="215" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1603942860030" />
+    <state x="570" y="396" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603942834619">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="570" y="396" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1504.963@0.0.1504.963" timestamp="1603942834619" />
+    <state x="415" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1604268632497">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="415" y="206" width="672" height="678" key="search.everywhere.popup/0.0.1504.963@0.0.1504.963" timestamp="1604268632497" />
   </component>
 </project>

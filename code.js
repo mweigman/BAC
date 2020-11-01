@@ -6,19 +6,29 @@ $(document).ready(
         //functions
             function costSplit() {
 
-                //input how many plain cheese pizza's?
-                var pizzaQuantity = parseFloat($("#plainPizza").val());
+                //input how many beers consumed?
+                //one beer has 0.54 oz of alcohol
+                var beerQuantity = parseFloat($("#beerCosumed").val());
 
-                //input how many extra toppings
-                var toppingsQuantity = parseFloat($("#toppings").val());
+                //input how much wine consumed
+                //one glass of wine has 0.60 oz of alcohol
+                var wineQuantity = parseFloat($("#wineConsumed").val());
 
-                //how many people splitting the cost
-                var totalPeople = parseFloat($("#people").val());
+                //input how many shots consumed
+                //one shot of liquor has 0.60 oz of alcohol
+                var shotsQuantity = parseFloat($("#shotsConsumed").val());
 
-                var calculation = ((pizzaQuantity * 15) + (toppingsQuantity * 1.25)) / totalPeople;
+                //input how much do you weigh
+                var totalWeight = parseFloat($("#weight").val());
+
+                //how many hours since your first drink
+                var totalHours = parseFloat($("#hours").val());
+
+                var calculation = ((beerQuantity * 0.54) + (wineQuantity * 0.60) + (shotsQuantity * 0.60)) * 7.5;
+                var bac = (calculation / totalWeight) - (totalHours * 0.015);
 
                 //put results in spans
-                $("#result").text(calculation.toFixed(2));
+                $("#result").text(bac.toFixed(3));
 
                 $("p.output").show();
 
